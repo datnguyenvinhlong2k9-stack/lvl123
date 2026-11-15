@@ -4,7 +4,7 @@ const songSettings = {
   authors: "Tập thể lớp [12A14]",
   // Dán đường dẫn MP3 công khai vào giữa dấu ngoặc kép sau đây.
   // Ví dụ: "https://drive.google.com/file/d/1RpF6uQgGdd8i1t5QR7VNnFJXeH_I6-DF/view"
-  audioUrl: "",
+  audioUrl: "OKOKOKOKOKOKOKO.mp3",
   // Mỗi đoạn lời bài hát là một phần tử trong mảng.
   // Dùng \n để xuống dòng trong cùng một đoạn.
 // ==============================================
