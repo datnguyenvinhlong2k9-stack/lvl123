@@ -1,14 +1,14 @@
 // ===== TÙY CHỈNH THÔNG TIN BÀI HÁT TẠI ĐÂY =====
 const songSettings = {
-  title: "Vừa Đây Thôi",
-  authors: "Tập thể lớp [Tên lớp]",
+  title: "Lưu Vào Lòng ",
+  authors: "Tập thể lớp [12A14]",
   // Dán đường dẫn MP3 công khai vào giữa dấu ngoặc kép sau đây.
-  // Ví dụ: "https://ten-mien-cua-ban.com/bai-hat.mp3"
+  // Ví dụ: "https://drive.google.com/file/d/1RpF6uQgGdd8i1t5QR7VNnFJXeH_I6-DF/view"
   audioUrl: "",
   // Mỗi đoạn lời bài hát là một phần tử trong mảng.
   // Dùng \n để xuống dòng trong cùng một đoạn.
   lyrics: [
-    " [Dán lời bài hát khổ 1 vào đây] ",
+    " [Vừa đây thôi mình ngân nga những câu chuyện qua dòng thời gian thôi đưa Lặng nhìn cơn mưa, lòng chợt nhớt những kỉ niệm xưa nhớ phút giây ngày ấy ] ",
     " [Dán lời bài hát khổ 2 vào đây] ",
     " [Dán điệp khúc vào đây] "
   ]
