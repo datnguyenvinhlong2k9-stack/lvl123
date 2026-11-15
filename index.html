@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#6c4df6">
+  <title>Giai Điệu Tuổi Học Trò | Báo tường lớp</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="floating-shapes" aria-hidden="true">
+    <span>♪</span><span>♫</span><span>✦</span><span>✿</span><span>♪</span>
+  </div>
+
+  <header class="topbar">
+    <a class="brand" href="#home"><span class="brand-icon">♫</span> GÓC ÂM NHẠC LỚP MÌNH</a>
+    <nav>
+      <a href="#song">Bài hát</a>
+      <a href="#lyrics">Lời bài hát</a>
+      <a href="#about">Thông điệp</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">MỘT SÁNG TÁC CỦA TẬP THỂ LỚP</span>
+        <h1>Nơi kỷ niệm<br><em>hóa thành giai điệu</em></h1>
+        <p>Mỗi khoảnh khắc bên nhau đều có một thanh âm riêng. Cùng lắng nghe ca khúc do chính tập thể lớp mình sáng tác nhé!</p>
+        <a class="primary-btn" href="#song">Khám phá bài hát <span>↓</span></a>
+      </div>
+      <div class="hero-art" aria-label="Minh họa âm nhạc">
+        <div class="sun"></div>
+        <div class="music-note note-one">♪</div>
+        <div class="music-note note-two">♫</div>
+        <div class="record"><div class="record-center">♫</div></div>
+        <div class="sticker">Made<br>with ♥<br>by our class</div>
+      </div>
+    </section>
+
+    <section class="song-card" id="song">
+      <div class="cover">
+        <div class="cover-top">SOUNDTRACK OF OUR MEMORIES</div>
+        <div class="cover-note">♫</div>
+        <div class="cover-bottom">A SONG<br>BY OUR CLASS</div>
+      </div>
+      <div class="song-info">
+        <span class="section-tag">CA KHÚC CỦA CHÚNG MÌNH</span>
+        <h2 id="songTitle">Vừa Đây Thôi</h2>
+        <p class="byline">Sáng tác: <strong id="authors">Tập thể lớp [Tên lớp]</strong></p>
+        <p class="song-description">Một món quà âm nhạc lưu giữ tình bạn, thanh xuân và những kỷ niệm không thể nào quên.</p>
+        <div class="audio-area">
+          <audio id="audioPlayer" controls preload="metadata">
+            <source id="audioSource" src="" type="audio/mpeg">
+            Trình duyệt của bạn không hỗ trợ trình phát âm thanh.
+          </audio>
+          <p class="small-note" id="audioNote">Chưa có tệp nhạc trực tuyến. Hãy cập nhật đường dẫn MP3 trong script.js.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="lyrics-section" id="lyrics">
+      <div class="section-heading">
+        <span class="section-tag">SING ALONG</span>
+        <h2>Lời bài hát</h2>
+        <p>Hát lại những điều chúng ta đã cùng nhau viết nên.</p>
+      </div>
+      <article class="lyrics-paper">
+        <div class="paper-pin"></div>
+        <div id="lyricsContent" class="lyrics-content">
+          <p class="verse">[Dán lời bài hát khổ 1 vào đây]</p>
+          <p class="verse">[Dán lời bài hát khổ 2 vào đây]</p>
+          <p class="chorus">[Dán điệp khúc vào đây]</p>
+        </div>
+        <div class="paper-footer">♪ TỪ TRÁI TIM CỦA TẬP THỂ LỚP ♪</div>
+      </article>
+    </section>
+
+    <section class="message-section" id="about">
+      <div class="message-icon">✦</div>
+      <div>
+        <span class="section-tag">GỬI ĐẾN NGƯỜI NGHE</span>
+        <h2>Một bài hát – thật nhiều kỷ niệm</h2>
+        <p>Ca khúc này là thành quả từ những ý tưởng, cảm xúc và sự chung tay của các thành viên trong lớp. Cảm ơn thầy cô và các bạn đã trở thành một phần trong thanh xuân của chúng mình!</p>
+        <p class="class-signature">Thân mến, <strong>[Tên lớp] – [Niên khóa]</strong></p>
+      </div>
+    </section>
+
+    <section class="qr-section">
+      <div>
+        <span class="section-tag">SCAN & LISTEN</span>
+        <h2>Quét mã QR để nghe nhé!</h2>
+        <p>Khi website được đăng tải công khai, hãy tạo mã QR từ đường dẫn website và in lên báo tường.</p>
+      </div>
+      <div class="qr-placeholder">
+        <div class="qr-symbol">▦</div>
+        <span>QR WEBSITE</span>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> · Sản phẩm âm nhạc của tập thể lớp</p>
+    <p>Được tạo bằng thật nhiều yêu thương ♡</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

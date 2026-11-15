@@ -1,0 +1,24 @@
+WEBSITE BÁO TƯỜNG – GÓC ÂM NHẠC LỚP MÌNH
+
+1. Giải nén file ZIP.
+2. Mở thư mục bằng Visual Studio Code.
+3. Mở script.js và chỉnh:
+   - title: tên bài hát
+   - authors: tên tác giả / tập thể lớp
+   - audioUrl: đường dẫn MP3 công khai
+   - lyrics: lời bài hát, mỗi đoạn là một dòng trong mảng
+4. Mở index.html bằng Chrome/Edge để xem thử.
+
+ĐƯA WEBSITE LÊN INTERNET ĐỂ TẠO QR
+- Tạo tài khoản GitHub, tạo repository mới (Public).
+- Tải index.html, style.css, script.js lên repository.
+- Vào Settings > Pages > Deploy from a branch > chọn nhánh main và thư mục /(root) > Save.
+- Chờ GitHub Pages xuất bản và lấy đường dẫn website.
+- Dùng đường dẫn đó tạo QR tại https://www.qrcode-monkey.com/ hoặc https://www.qr-code-generator.com/.
+- Dùng điện thoại quét thử QR trước khi in.
+
+LƯU Ý ÂM THANH
+Website chỉ phát được nhạc cho mọi người khi audioUrl là đường dẫn MP3 có thể truy cập công khai. Không dùng đường dẫn file nằm trong máy tính của bạn. Có thể lưu file âm thanh ở dịch vụ lưu trữ cho phép chia sẻ trực tiếp hoặc nơi host cùng website.
+
+LƯU Ý QUYỀN RIÊNG TƯ
+Không đăng thông tin cá nhân, số điện thoại hoặc hình ảnh bạn bè khi chưa được đồng ý.
