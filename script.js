@@ -7,12 +7,6 @@ const songSettings = {
   audioUrl: "",
   // Mỗi đoạn lời bài hát là một phần tử trong mảng.
   // Dùng \n để xuống dòng trong cùng một đoạn.
-  lyrics: [
-    " [Vừa đây thôi mình ngân nga những câu chuyện qua dòng thời gian thôi đưa Lặng nhìn cơn mưa, lòng chợt nhớt những kỉ niệm xưa nhớ phút giây ngày ấy ] ",
-    " [Dán lời bài hát khổ 2 vào đây] ",
-    " [Dán điệp khúc vào đây] "
-  ]
-};
 // ==============================================
 
 document.title = `${songSettings.title} | Góc âm nhạc lớp mình`;
